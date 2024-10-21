@@ -1,6 +1,6 @@
 #define CATCH_CONFIG_MAIN
-#include "..\include\catch.hpp"
-#include "..\include\zadanie.hpp"
+#include "catch.hpp"
+#include "zadanie.hpp"
 
 TEST_CASE("Test dodawania") {
   CHECK(dodaj(2, 2) == 4);
